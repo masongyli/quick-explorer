@@ -1,3 +1,31 @@
+# Note
+This project is forked from https://github.com/pjeby/quick-explorer.  
+The only thing I do is to disable the "automatically hover preview" feature.  
+You can still hold the `Ctrl` key to preview the file.
+
+## How to install
+### Method 1: Download from the release page
+1. Download files (`main.css`, `main.js`, `manifest.json`, `styles.css`) from the [release page](https://github.com/masongyli/quick-explorer/releases).
+2. Put all of them into one folder, and name the folder as *quick-explorer*.
+3. Move the *quick-explorer* folder to your obsidian vault's plugins folder.
+4. Reload the plugins in Obsidian.
+5. Enable the plugin in the settings.
+
+### Method 2: Build from source code
+1. Clone this repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm run build` to build the plugin.
+4. Copy the *dist* folder to your obsidian vault's plugins folder.
+5. Rename the *dist* folder to *quick-explorer*.
+6. Reload the plugins in Obsidian.
+7. Enable the plugin in the settings.
+
+## How to update when there is a new release
+1. In Obsidian's settings -> "Community plugins", click "Check for updates".
+2. Wait for it to check all plugins you have installed, then it would show all updatable plugins.
+3. Choose which plugin to update.
+
+# README of the original project
 ## Quick Explorer for Obsidian
 
 > New in 0.2.11: Vim-style navigation hotkeys: Mod+h/j/k/l (Mod=Cmd on Mac, Ctrl on PC)
